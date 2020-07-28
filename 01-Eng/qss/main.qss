@@ -1,0 +1,93 @@
+﻿/*******TitleBar********/
+QFrame[title="1"]{
+	background: #23375D;
+}
+
+QFrame[title="2"]{
+	background: #23375D;
+}
+
+QLabel[title="1"]{
+	font-family: "Microsoft YaHei";
+	color: #FFFFFF;
+	background: transparent;
+	font: 30px;
+	qproperty-alignment: AlignCenter;
+}
+QLabel[title="2"]{
+	font-family: "Microsoft YaHei";
+	color: #67B5B7;
+	font: 30px;
+	qproperty-alignment: AlignCenter;
+	background: transparent;
+}
+
+QPushButton[btn_Min_white="true"]{
+	border-image: url(:/icon/images/icon/min_1.png);
+}
+QPushButton[btn_Min_white="true"]:hover:!pressed{
+	border-image: url(:/icon/images/icon/min_2.png);
+}
+QPushButton[btn_Min_white="true"]:pressed{
+	border-image: url(:/icon/images/icon/min_3.png);
+}
+
+QPushButton[btn_Max_white="true"]{
+	border-image: url(:/icon/images/icon/max_1.png);
+}
+QPushButton[btn_Max_white="true"]:hover:!pressed{
+	border-image: url(:/icon/images/icon/max_2.png);
+}
+QPushButton[btn_Max_white="true"]:pressed{
+	border-image: url(:/icon/images/icon/max_3.png);
+}
+
+QPushButton[btn_Close_white="true"]{
+	border-image: url(:/icon/images/icon/close_1.png);
+}
+QPushButton[btn_Close_white="true"]:hover:!pressed{
+	border-image: url(:/icon/images/icon/close_2.png);
+}
+QPushButton[btn_Close_white="true"]:pressed{
+	border-image: url(:/icon/images/icon/close_3.png);
+}
+
+/*******HomePage********/
+QFrame[page="1"]{
+	background-color: #131D30;
+}
+
+QLabel[txt="1"]{
+	font-family: "Microsoft YaHei";
+	color: #FFFFFF;
+	background: transparent;
+	font: 200px;
+	qproperty-alignment: AlignCenter;
+}
+
+QLabel[txt="2"]{
+	font-family: "Microsoft YaHei";
+	color: #FFFFFF;
+	background: transparent;
+	font: 100px;
+	qproperty-alignment: AlignCenter;
+}
+
+/*********common********/
+QPushButton[btn="1"]{
+	background-color: #23375D;
+	font-family: "Microsoft YaHei";
+	color: #FFFFFF;
+	font: 48px;
+	border: none;
+/*	border-radius: 13px;*/
+}
+QPushButton[btn="1"]:hover:!pressed{
+	background-color: #22427d;
+}
+QPushButton[btn="1"]:pressed{
+	background-color: #43526F;
+}
+QPushButton[btn="1"]:disabled{
+	background-color: #CFCFCF;
+}

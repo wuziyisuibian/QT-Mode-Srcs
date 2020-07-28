@@ -1,0 +1,17 @@
+<RCC>
+    <qresource prefix="/qss">
+        <file>qss/main.qss</file>
+    </qresource>
+    <qresource prefix="/icon">
+        <file>images/icon/close_1.png</file>
+        <file>images/icon/close_2.png</file>
+        <file>images/icon/close_3.png</file>
+        <file>images/icon/icon_1.png</file>
+        <file>images/icon/max_1.png</file>
+        <file>images/icon/max_2.png</file>
+        <file>images/icon/max_3.png</file>
+        <file>images/icon/min_1.png</file>
+        <file>images/icon/min_2.png</file>
+        <file>images/icon/min_3.png</file>
+    </qresource>
+</RCC>
